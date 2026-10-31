@@ -1194,6 +1194,359 @@ const resumosTopicos = {
 
         </div>
     `,
+    // -----------------------------------------------------
+    // TÓPICO 2: Instrumentos de gestão: PETI, PDTI, BSC, KGIs e OKRs
+    // -----------------------------------------------------
+    2: `
+        <summary>📘 Ver Conteúdo Completo (Instrumentos de Gestão: PETI, PDTI, BSC, KGIs e OKRs)</summary>
+        <div class="topic-details-content">
+            <p>Para o concurso TRF3 — Analista de TI, banca VUNESP, precisamos distinguir a finalidade de cada instrumento, o que ele planeja ou mede e como se relaciona com os demais. A principal pegadinha é misturar planejamento estratégico, planejamento tático, indicadores de desempenho e definição de objetivos e resultados.</p>
+
+            <!-- 1. PETI -->
+            <h4 style="margin-top: 20px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                1. PETI — Plano Estratégico de Tecnologia da Informação
+            </h4>
+            <p>O PETI é o instrumento de planejamento estratégico de TI. Ele define a direção que a área de Tecnologia da Informação deve seguir para contribuir com os objetivos estratégicos da organização.</p>
+            <p><strong>Finalidade:</strong></p>
+            <ul>
+                <li>Alinhar a TI à estratégia institucional;</li>
+                <li>Definir objetivos estratégicos de TI;</li>
+                <li>Estabelecer diretrizes e prioridades;</li>
+                <li>Orientar investimentos e iniciativas de longo prazo;</li>
+                <li>Apoiar a governança e a tomada de decisões.</li>
+            </ul>
+            <p><strong>Exemplo no TRF3:</strong> Se o Tribunal possui como objetivo estratégico melhorar a prestação jurisdicional, o PETI pode estabelecer objetivos de TI como: ampliar a disponibilidade dos sistemas judiciais, fortalecer a segurança da informação, modernizar a infraestrutura tecnológica e ampliar os serviços digitais.</p>
+            <p><em>Palavra-chave:</em> <strong>direção estratégica</strong>.</p>
+
+            <!-- 2. PDTI -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                2. PDTI — Plano Diretor de Tecnologia da Informação
+            </h4>
+            <p>O PDTI é um instrumento de planejamento tático que organiza as ações necessárias para atender às necessidades de TI da instituição.</p>
+            <p><strong>Finalidade:</strong></p>
+            <ul>
+                <li>Identificar necessidades e demandas de TI;</li>
+                <li>Definir ações, projetos e iniciativas;</li>
+                <li>Estabelecer prioridades;</li>
+                <li>Planejar recursos humanos, tecnológicos e financeiros;</li>
+                <li>Organizar cronogramas e responsáveis;</li>
+                <li>Orientar a execução do planejamento de TI.</li>
+            </ul>
+            <p><strong>Exemplo:</strong> Se o PETI estabelece como objetivo estratégico fortalecer a segurança da informação, o PDTI pode prever: implantação de autenticação multifator, atualização de servidores, contratação de solução de monitoramento, capacitação da equipe e implantação de ferramentas de backup.</p>
+            <p><em>Palavra-chave:</em> <strong>execução planejada</strong>.</p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">PETI × PDTI</h5>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Característica</th>
+                        <th>PETI</th>
+                        <th>PDTI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Natureza</strong></td>
+                        <td>Estratégica</td>
+                        <td>Tática</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Foco</strong></td>
+                        <td>Direção e objetivos</td>
+                        <td>Ações e iniciativas</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pergunta</strong></td>
+                        <td>Onde queremos chegar?</td>
+                        <td>Como vamos chegar?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Horizonte</strong></td>
+                        <td>Geralmente mais longo</td>
+                        <td>Geralmente mais operacional e definido por ciclo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Conteúdo</strong></td>
+                        <td>Diretrizes e objetivos</td>
+                        <td>Projetos, ações, recursos e prioridades</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinha VUNESP:</strong> PETI e PDTI <strong>não são sinônimos</strong>. O PETI orienta estrategicamente a TI; o PDTI detalha como atender às necessidades e executar as iniciativas planejadas.
+            </div>
+
+            <!-- 3. BSC -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                3. BSC — Balanced Scorecard
+            </h4>
+            <p>Tradução: Indicadores Balanceados de Desempenho. O BSC é uma metodologia de gestão estratégica que transforma a estratégia organizacional em objetivos, indicadores, metas e iniciativas. Desenvolvido por Robert Kaplan e David Norton, sua proposta é evitar que a organização avalie seu desempenho apenas por indicadores financeiros, integrando quatro perspectivas fundamentais.</p>
+
+            <p><strong>As quatro perspectivas do BSC:</strong></p>
+            <ul>
+                <li><strong>Financeira:</strong> Como somos vistos pelos financiadores e responsáveis pelo orçamento?</li>
+                <li><strong>Clientes:</strong> Como somos vistos pelos usuários e cidadãos?</li>
+                <li><strong>Processos internos:</strong> Em quais processos precisamos ser excelentes?</li>
+                <li><strong>Aprendizado e crescimento:</strong> Como manter a capacidade de melhorar e inovar?</li>
+            </ul>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Exemplo aplicado ao setor público:</h5>
+            <p>Imagine que um tribunal queira melhorar a prestação dos serviços judiciais:</p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Perspectiva</th>
+                        <th>Objetivo</th>
+                        <th>Indicador Possível</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Financeira</strong></td>
+                        <td>Otimizar os recursos de TI</td>
+                        <td>Custo por serviço digital</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Clientes</strong></td>
+                        <td>Melhorar a satisfação dos usuários</td>
+                        <td>Índice de satisfação</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Processos internos</strong></td>
+                        <td>Aumentar a disponibilidade dos sistemas</td>
+                        <td>Percentual de disponibilidade</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Aprendizado e crescimento</strong></td>
+                        <td>Desenvolver competências da equipe</td>
+                        <td>Horas de capacitação</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><em>Atenção:</em> No setor público, a perspectiva financeira não precisa ocupar o topo da estratégia. A missão institucional e a entrega de valor à sociedade podem ser o foco principal.</p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Mapa Estratégico:</h5>
+            <p>O BSC também pode utilizar um mapa estratégico para representar relações de causa e efeito entre objetivos:</p>
+            <ul>
+                <li><strong>Clientes / Sociedade:</strong> Melhorar os serviços digitais</li>
+                <li><strong>Processos internos:</strong> Reduzir falhas e tempo de indisponibilidade</li>
+                <li><strong>Aprendizado e crescimento:</strong> Capacitar equipes e modernizar competências</li>
+            </ul>
+            <p><em>A lógica é:</em> desenvolver pessoas e capacidades permite melhorar processos, o que pode gerar melhores serviços para a sociedade.</p>
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinha VUNESP:</strong> BSC não é apenas um conjunto de indicadores financeiros. É um sistema de gestão estratégica que integra objetivos, indicadores, metas e iniciativas em diferentes perspectivas.
+            </div>
+
+            <!-- 4. KGIs -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                4. KGIs — Key Goal Indicators
+            </h4>
+            <p>Tradução: Indicadores-chave de metas. Os KGIs medem se os objetivos ou resultados pretendidos foram efetivamente alcançados. A pergunta central é: <em>“Estamos atingindo nossos objetivos?”</em></p>
+            <p><strong>Exemplos em TI:</strong></p>
+            <ul>
+                <li>Percentual de metas estratégicas de TI alcançadas;</li>
+                <li>Percentual de projetos estratégicos concluídos;</li>
+                <li>Índice de satisfação dos usuários com os serviços de TI;</li>
+                <li>Percentual de redução de incidentes críticos, conforme a meta estabelecida.</li>
+            </ul>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">KGI × KPI</h5>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Indicador</th>
+                        <th>O que Mede</th>
+                        <th>Pergunta Central</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>KGI</strong></td>
+                        <td>Alcance do objetivo ou resultado</td>
+                        <td>Estamos atingindo o objetivo?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>KPI</strong></td>
+                        <td>Desempenho de um processo ou atividade</td>
+                        <td>Como está o desempenho?</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Exemplo prático:</strong> Objetivo: garantir alta disponibilidade de um sistema judicial.<br>
+            • <em>KGI:</em> atingir disponibilidade mensal de 99,9%.<br>
+            • <em>KPI:</em> tempo médio de resolução de incidentes; quantidade de incidentes; tempo de resposta do suporte.<br>
+            O KGI verifica o resultado pretendido. Os KPIs ajudam a acompanhar o desempenho das atividades que contribuem para esse resultado.</p>
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinha:</strong> KGI e KPI <strong>não são sinônimos</strong>. Um está associado ao alcance de metas e objetivos; o outro, ao desempenho e aos fatores que influenciam os resultados.
+            </div>
+
+            <!-- 5. OKR -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                5. OKR — Objectives and Key Results
+            </h4>
+            <p>Tradução: Objetivos e Resultados-Chave. OKR é uma metodologia de definição e acompanhamento de objetivos que busca alinhar equipes e organização em torno de resultados mensuráveis. Possui dois componentes principais:</p>
+            <ol>
+                <li><strong>Objective (Objetivo):</strong> Define aquilo que se deseja alcançar. Deve ser claro, qualitativo e inspirador.</li>
+                <li><strong>Key Results (Resultados-chave):</strong> Definem como será medido o progresso em direção ao objetivo. Devem ser mensuráveis, específicos e verificáveis.</li>
+            </ol>
+            <p>Além disso, existem as <strong>iniciativas</strong>, que são as ações realizadas para alcançar os resultados-chave.</p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Exemplo aplicado à TI de um tribunal:</h5>
+            <div style="background: #f1f5f9; padding: 12px; border-radius: 6px; border: 1px solid #cbd5e1; margin-bottom: 12px;">
+                <p style="margin: 0 0 6px 0;"><strong>OBJECTIVE (Objetivo qualitativo):</strong> Melhorar a disponibilidade dos sistemas judiciais.</p>
+                <p style="margin: 0 0 4px 0;"><strong>KEY RESULTS:</strong></p>
+                <ul style="margin: 0 0 8px 0;">
+                    <li>KR 1: aumentar a disponibilidade mensal de 98% para 99,9%.</li>
+                    <li>KR 2: reduzir incidentes críticos de 20 para 5 por trimestre.</li>
+                    <li>KR 3: diminuir o tempo médio de recuperação de 4 horas para 1 hora.</li>
+                </ul>
+                <p style="margin: 0 0 4px 0;"><strong>INICIATIVAS:</strong></p>
+                <ul style="margin: 0;">
+                    <li>Implantar monitoramento contínuo.</li>
+                    <li>Melhorar a infraestrutura de redundância.</li>
+                    <li>Automatizar procedimentos de recuperação.</li>
+                </ul>
+            </div>
+
+            <p><strong>Características dos OKRs:</strong></p>
+            <ul>
+                <li>Alinhamento entre objetivos institucionais e equipes;</li>
+                <li>Transparência dos objetivos e resultados;</li>
+                <li>Resultados mensuráveis;</li>
+                <li>Acompanhamento periódico;</li>
+                <li>Foco em resultados, não apenas em atividades;</li>
+                <li>Revisão e aprendizado contínuos.</li>
+            </ul>
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinha VUNESP:</strong> Concluir uma atividade não significa necessariamente alcançar um resultado-chave.<br>
+                • <em>“Implantar um novo sistema”</em> → iniciativa ou entrega.<br>
+                • <em>“Reduzir em 30% o tempo de atendimento”</em> → resultado mensurável.
+            </div>
+
+            <!-- 6. COMPARAÇÃO GERAL -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                6. Comparação Geral — PETI, PDTI, BSC, KGI e OKR
+            </h4>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Instrumento</th>
+                        <th>Finalidade Principal</th>
+                        <th>Palavra-chave</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>PETI</strong></td>
+                        <td>Define a direção estratégica de TI</td>
+                        <td>Estratégia</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PDTI</strong></td>
+                        <td>Planeja ações, projetos e recursos de TI</td>
+                        <td>Planejamento tático</td>
+                    </tr>
+                    <tr>
+                        <td><strong>BSC</strong></td>
+                        <td>Traduz a estratégia em perspectivas, objetivos e indicadores</td>
+                        <td>Desempenho estratégico</td>
+                    </tr>
+                    <tr>
+                        <td><strong>KGI</strong></td>
+                        <td>Mede o alcance dos objetivos</td>
+                        <td>Resultado</td>
+                    </tr>
+                    <tr>
+                        <td><strong>OKR</strong></td>
+                        <td>Define objetivos e resultados-chave mensuráveis</td>
+                        <td>Objetivos e resultados</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Como esses instrumentos se relacionam?</h5>
+            <p>Imagine que o tribunal deseja modernizar seus serviços digitais:</p>
+            <ul>
+                <li><strong>PETI — Estratégia:</strong> Modernizar a prestação dos serviços de TI.</li>
+                <li><strong>PDTI — Planejamento das ações:</strong> Definir projetos, prioridades, orçamento e recursos necessários.</li>
+                <li><strong>BSC — Acompanhamento estratégico:</strong> Organizar objetivos e indicadores nas quatro perspectivas.</li>
+                <li><strong>KGI:</strong> Verificar se o objetivo foi alcançado.</li>
+                <li><strong>OKR:</strong> Definir objetivos e resultados-chave para orientar a execução.</li>
+            </ul>
+            <p style="font-size: 0.85rem; color: #64748b;"><em>Esquema didático de relacionamento — não significa que exista uma sequência normativa obrigatória entre os cinco instrumentos.</em></p>
+
+            <!-- 7. PEGADINHAS DE PROVA -->
+            <h4 style="margin-top: 25px; color: #b91c1c; border-bottom: 2px solid #f87171; padding-bottom: 6px;">
+                7. Pegadinhas de Prova — VUNESP
+            </h4>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Afirmação</th>
+                        <th>Correção</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>O PETI é um instrumento de planejamento operacional.</td>
+                        <td><strong>Errado:</strong> é estratégico.</td>
+                    </tr>
+                    <tr>
+                        <td>O PDTI identifica necessidades e organiza ações de TIC.</td>
+                        <td><strong>Certo.</strong></td>
+                    </tr>
+                    <tr>
+                        <td>O BSC considera exclusivamente indicadores financeiros.</td>
+                        <td><strong>Errado:</strong> utiliza quatro perspectivas tradicionais.</td>
+                    </tr>
+                    <tr>
+                        <td>O KGI mede o desempenho diário de uma atividade.</td>
+                        <td><strong>Errado:</strong> mede o alcance do objetivo.</td>
+                    </tr>
+                    <tr>
+                        <td>O KPI mede o desempenho de processos e atividades.</td>
+                        <td><strong>Certo.</strong></td>
+                    </tr>
+                    <tr>
+                        <td>O OKR é composto por objetivos e resultados-chave.</td>
+                        <td><strong>Certo.</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Os resultados-chave devem ser mensuráveis.</td>
+                        <td><strong>Certo.</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Uma iniciativa é necessariamente um resultado-chave.</td>
+                        <td><strong>Errado:</strong> iniciativa é uma ação para alcançar o resultado.</td>
+                    </tr>
+                    <tr>
+                        <td>O BSC pode ser utilizado no setor público.</td>
+                        <td><strong>Certo.</strong></td>
+                    </tr>
+                    <tr>
+                        <td>PETI e PDTI precisam obrigatoriamente ser documentos separados em todos os órgãos.</td>
+                        <td><strong>Errado.</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="alert-box" style="margin-top: 12px; margin-bottom: 12px;">
+                <strong>Observação importante (TCU / SISP):</strong> No contexto do SISP, o TCU reconhece que o PETI pode estar incorporado ao PDTI, não sendo obrigatória a publicação de dois documentos separados em todos os casos. O PDTI continua sendo instrumento essencial de planejamento de TIC.
+            </div>
+
+            <!-- 8. RESUMO PARA MEMORIZAÇÃO -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                8. Resumo para Memorização
+            </h4>
+            <p>Decore estas cinco frases:</p>
+            <ol style="line-height: 1.6;">
+                <li><strong>PETI</strong> = para onde a TI deve ir.</li>
+                <li><strong>PDTI</strong> = quais ações e recursos serão necessários.</li>
+                <li><strong>BSC</strong> = como traduzir e acompanhar a estratégia.</li>
+                <li><strong>KGI</strong> = o objetivo foi alcançado?</li>
+                <li><strong>OKR</strong> = qual objetivo queremos alcançar e quais resultados comprovarão o progresso?</li>
+            </ol>
+        </div>
+    `,
 };
 
 document.addEventListener("DOMContentLoaded", () => {
