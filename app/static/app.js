@@ -1547,6 +1547,242 @@ const resumosTopicos = {
             </ol>
         </div>
     `,
+    // -----------------------------------------------------
+    // TÓPICO 1: Planejamento Estratégico de TI alinhado ao negócio jurisdicional
+    // -----------------------------------------------------
+    1: `
+        <summary>📘 Ver Conteúdo Completo (Planejamento Estratégico de TI Alinhado ao Negócio)</summary>
+        <div class="topic-details-content">
+            <p>Esse assunto trata de como a Tecnologia da Informação deve planejar suas ações para contribuir diretamente com a atividade-fim do Poder Judiciário: prestar a atividade jurisdicional, ou seja, permitir que a Justiça funcione com eficiência, segurança, celeridade e qualidade.</p>
+            
+            <div class="alert-box" style="margin-bottom: 15px;">
+                <strong>Ideia central para a VUNESP:</strong><br>
+                A TI não deve planejar suas ações isoladamente. Seus objetivos, projetos e investimentos devem estar alinhados às necessidades e aos objetivos estratégicos do Tribunal.
+            </div>
+
+            <!-- 1. O QUE É PLANEJAMENTO ESTRATÉGICO DE TI -->
+            <h4 style="margin-top: 20px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                1. O que é Planejamento Estratégico de TI?
+            </h4>
+            <p>É o processo de definir a direção da área de Tecnologia da Informação, estabelecendo objetivos, diretrizes, prioridades e iniciativas que contribuam para a estratégia institucional. No Judiciário, isso significa planejar a TI considerando as necessidades da prestação jurisdicional.</p>
+            
+            <p><strong>Exemplo:</strong> se o Tribunal pretende reduzir o tempo de tramitação dos processos, a TI pode contribuir com:</p>
+            <ul>
+                <li>Modernização dos sistemas processuais;</li>
+                <li>Automação de tarefas repetitivas;</li>
+                <li>Melhoria da infraestrutura de redes e servidores;</li>
+                <li>Ampliação da disponibilidade dos sistemas;</li>
+                <li>Integração entre sistemas judiciais;</li>
+                <li>Segurança da informação e proteção dos dados.</li>
+            </ul>
+            <p><em>Perceba:</em> o objetivo institucional é melhorar a prestação jurisdicional; a TI define como a tecnologia contribuirá para esse objetivo.</p>
+
+            <!-- 2. ALINHAMENTO COM O NEGÓCIO JURISDICIONAL -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                2. Alinhamento com o Negócio Jurisdicional
+            </h4>
+            <p>O alinhamento estratégico acontece quando as decisões de TI são tomadas considerando as prioridades da atividade jurisdicional, e não apenas interesses técnicos ou demandas isoladas.</p>
+            
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Necessidade do Negócio Jurisdicional</th>
+                        <th>Resposta Estratégica da TI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Reduzir o tempo de tramitação processual</td>
+                        <td>Automatizar fluxos e modernizar sistemas</td>
+                    </tr>
+                    <tr>
+                        <td>Facilitar o acesso à Justiça</td>
+                        <td>Ampliar serviços digitais e acessibilidade</td>
+                    </tr>
+                    <tr>
+                        <td>Garantir continuidade dos serviços</td>
+                        <td>Melhorar disponibilidade e recuperação de sistemas</td>
+                    </tr>
+                    <tr>
+                        <td>Proteger informações processuais</td>
+                        <td>Fortalecer segurança e gestão de dados</td>
+                    </tr>
+                    <tr>
+                        <td>Integrar órgãos e sistemas</td>
+                        <td>Promover interoperabilidade</td>
+                    </tr>
+                    <tr>
+                        <td>Melhorar a produtividade</td>
+                        <td>Disponibilizar ferramentas e soluções tecnológicas</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p><strong>Atenção à distinção:</strong> alinhamento não significa simplesmente informatizar tudo o que as unidades solicitam. Significa avaliar as demandas, priorizá-las e direcionar recursos para aquilo que contribui para os objetivos institucionais.</p>
+
+            <!-- 3. REFERÊNCIAS DO CNJ -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                3. Referências do CNJ que Você Precisa Conhecer
+            </h4>
+            <p>No Poder Judiciário, o alinhamento não é apenas uma boa prática administrativa: há diretrizes nacionais estabelecidas pelo Conselho Nacional de Justiça.</p>
+            
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Resolução CNJ nº 370/2021 — ENTIC-JUD</h5>
+            <p>Instituiu a Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário para o ciclo 2021–2026. É uma referência central para entender o alinhamento da TI à estratégia institucional e nacional.</p>
+            <p>O <strong>art. 6º</strong> determina que cada órgão elabore e mantenha seu Plano Diretor de Tecnologia da Informação e Comunicação (PDTIC), alinhado:</p>
+            <ol>
+                <li>Ao Planejamento Estratégico Institucional;</li>
+                <li>Ao Planejamento Estratégico Nacional do Poder Judiciário;</li>
+                <li>À ENTIC-JUD.</li>
+            </ol>
+            <p>O <strong>art. 42</strong> também exige que o PDTIC contemple alinhamento estratégico, diretrizes, metas associadas a indicadores e ações para o ciclo estratégico.</p>
+            
+            <p><strong>As três perspectivas da ENTIC-JUD:</strong></p>
+            <ul>
+                <li><strong>Sociedade:</strong> satisfação dos usuários e transformação digital;</li>
+                <li><strong>Aprendizado e crescimento:</strong> competências dos colaboradores e inovação colaborativa;</li>
+                <li><strong>Processos internos:</strong> governança, contratações, segurança da informação, gestão de dados e infraestrutura.</li>
+            </ul>
+
+            <div class="alert-box" style="margin-top: 12px; margin-bottom: 12px;">
+                <strong>Atualização importante para a prova de 2027:</strong><br>
+                A Resolução CNJ nº 325/2020, que instituiu a Estratégia Nacional do Poder Judiciário 2021–2026, será revogada a partir de 1º de janeiro de 2027. A Resolução CNJ nº 692/2026 instituiu a nova Estratégia Nacional para o período de 2027–2032. Portanto, não estude a Resolução nº 325 como se fosse a estratégia nacional vigente durante todo o período da sua prova.<br><br>
+                • <strong>Resolução CNJ nº 325/2020:</strong> referência histórica do ciclo 2021–2026.<br>
+                • <strong>Resolução CNJ nº 692/2026:</strong> nova estratégia nacional, ciclo 2027–2032.
+            </div>
+
+            <!-- 4. DESDOBRAMENTO DA ESTRATÉGIA -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                4. Como a Estratégia é Desdobrada?
+            </h4>
+            <p>Podemos compreender o alinhamento como uma cadeia de desdobramento:</p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Nível</th>
+                        <th>Pergunta Orientadora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Estratégia institucional</strong></td>
+                        <td>O que o Tribunal precisa alcançar?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Estratégia de TI</strong></td>
+                        <td>Como a tecnologia contribuirá?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PDTIC</strong></td>
+                        <td>Quais ações, projetos, metas e recursos serão necessários?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Execução e monitoramento</strong></td>
+                        <td>Os resultados estão contribuindo para a estratégia?</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 0.85rem; color: #64748b;"><em>Essa representação é didática, não uma sequência obrigatória de documentos.</em></p>
+
+            <!-- 5. GOVERNANÇA × GESTÃO -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                5. Governança de TI × Gestão de TI
+            </h4>
+            <p>Essa distinção é importante porque aparece frequentemente em questões de governança.</p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Governança de TI</th>
+                        <th>Gestão de TI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Avalia, direciona e monitora</td>
+                        <td>Planeja, executa e controla</td>
+                    </tr>
+                    <tr>
+                        <td>Define prioridades e diretrizes</td>
+                        <td>Implementa ações e projetos</td>
+                    </tr>
+                    <tr>
+                        <td>Verifica o alinhamento estratégico</td>
+                        <td>Administra recursos e serviços</td>
+                    </tr>
+                    <tr>
+                        <td>Acompanha resultados e riscos</td>
+                        <td>Entrega soluções tecnológicas</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p><strong>Exemplo:</strong></p>
+            <ul>
+                <li><strong>Governança:</strong> determinar que a disponibilidade dos sistemas judiciais é uma prioridade institucional.</li>
+                <li><strong>Gestão:</strong> implementar redundância, monitoramento, backups e procedimentos de recuperação.</li>
+            </ul>
+            <p><em>A governança direciona; a gestão executa conforme as diretrizes estabelecidas.</em></p>
+
+            <!-- 6. PEGADINHAS DA VUNESP -->
+            <h4 style="margin-top: 25px; color: #b91c1c; border-bottom: 2px solid #f87171; padding-bottom: 6px;">
+                6. Pegadinhas da VUNESP
+            </h4>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Afirmação</th>
+                        <th>Gabarito</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>O planejamento de TI deve ser independente da estratégia institucional.</td>
+                        <td><strong>Errado</strong></td>
+                    </tr>
+                    <tr>
+                        <td>A TI deve contribuir para os objetivos do negócio jurisdicional.</td>
+                        <td><strong>Certo</strong></td>
+                    </tr>
+                    <tr>
+                        <td>O PDTIC deve estar alinhado ao planejamento estratégico institucional e à ENTIC-JUD.</td>
+                        <td><strong>Certo</strong></td>
+                    </tr>
+                    <tr>
+                        <td>O alinhamento estratégico consiste apenas em adquirir equipamentos modernos.</td>
+                        <td><strong>Errado</strong></td>
+                    </tr>
+                    <tr>
+                        <td>A governança de TI avalia, direciona e monitora a gestão.</td>
+                        <td><strong>Certo</strong></td>
+                    </tr>
+                    <tr>
+                        <td>A gestão de TI é responsável por executar as ações e administrar os recursos.</td>
+                        <td><strong>Certo</strong></td>
+                    </tr>
+                    <tr>
+                        <td>A ENTIC-JUD é uma estratégia exclusiva de um Tribunal específico.</td>
+                        <td><strong>Errado</strong> (é nacional para todo o Poder Judiciário)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 7. RESUMO E MACETE -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                7. Resumo para Memorização e Macete
+            </h4>
+            <ul>
+                <li><strong>Estratégia institucional:</strong> define onde o Tribunal quer chegar.</li>
+                <li><strong>Estratégia de TI:</strong> define como a tecnologia contribuirá.</li>
+                <li><strong>PDTIC:</strong> organiza ações, metas e recursos.</li>
+                <li><strong>Governança:</strong> avalia, direciona e monitora.</li>
+                <li><strong>Gestão:</strong> planeja, executa e controla.</li>
+            </ul>
+
+            <div class="alert-box" style="margin-top: 15px;">
+                <strong>🧠 Macete de Prova:</strong><br>
+                A tecnologia é um <em>instrumento</em> para melhorar a prestação jurisdicional, <strong>não um fim em si mesma</strong>.
+            </div>
+        </div>
+    `,
 };
 
 document.addEventListener("DOMContentLoaded", () => {
