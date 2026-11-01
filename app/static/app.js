@@ -1783,6 +1783,396 @@ const resumosTopicos = {
             </div>
         </div>
     `,
+    // -----------------------------------------------------
+    // TÓPICO 4: Gerenciamento de Serviços: ITIL v4 e SVS
+    // -----------------------------------------------------
+    4: `
+        <summary>📘 Ver Conteúdo Completo (ITIL 4 e Sistema de Valor de Serviço - SVS)</summary>
+        <div class="topic-details-content">
+            <p>Este tópico é muito importante para o concurso TRF3 — Analista de TI. A banca VUNESP pode explorar principalmente os componentes do Sistema de Valor de Serviço (SVS), as quatro dimensões do gerenciamento de serviços, os sete princípios orientadores e as atividades da cadeia de valor de serviço.</p>
+
+            <div class="alert-box" style="margin-bottom: 15px;">
+                <strong>Ideia central da ITIL 4:</strong><br>
+                Gerenciar serviços de TI não significa apenas manter sistemas funcionando. Significa <strong>criar valor</strong> para clientes, usuários e demais partes interessadas por meio de serviços.
+            </div>
+
+            <!-- 1. O QUE É ITIL 4 -->
+            <h4 style="margin-top: 20px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                1. O que é ITIL 4?
+            </h4>
+            <p>A ITIL 4 (<em>Information Technology Infrastructure Library</em>) é um conjunto de boas práticas para o gerenciamento de serviços de TI (ITSM — <em>IT Service Management</em>). Seu propósito é orientar organizações na criação, entrega, suporte e melhoria contínua de serviços de TI.</p>
+            
+            <p><strong>Exemplo no TRF3:</strong> Imagine o sistema de processo judicial eletrônico. Para que ele gere valor, não basta desenvolver o software. É necessário:</p>
+            <ul>
+                <li>Garantir disponibilidade e desempenho;</li>
+                <li>Gerenciar incidentes e problemas;</li>
+                <li>Controlar mudanças e atualizações;</li>
+                <li>Proteger informações processuais;</li>
+                <li>Oferecer suporte aos usuários;</li>
+                <li>Monitorar resultados e promover melhorias.</li>
+            </ul>
+            <p><em>Atenção:</em> ITIL 4 não é uma metodologia de desenvolvimento de software, uma linguagem de programação ou um framework exclusivo de infraestrutura. É um framework de boas práticas para gerenciamento de serviços.</p>
+
+            <!-- 2. CONCEITOS FUNDAMENTAIS -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                2. Conceitos Fundamentais da ITIL 4
+            </h4>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Conceito</th>
+                        <th>Significado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Serviço</strong></td>
+                        <td>Meio de permitir a cocriação de valor, facilitando resultados que os clientes desejam alcançar, sem que precisem gerenciar custos e riscos específicos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Valor</strong></td>
+                        <td>Benefícios, utilidade e importância percebidos pelas partes interessadas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cliente</strong></td>
+                        <td>Define os requisitos de um serviço e assume a responsabilidade pelos resultados do consumo do serviço.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Usuário</strong></td>
+                        <td>Utiliza o serviço no dia a dia.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Patrocinador (Sponsor)</strong></td>
+                        <td>Autoriza o orçamento para o consumo do serviço.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Utilidade (Utility)</strong></td>
+                        <td>O que o serviço faz; sua adequação à finalidade (<em>fit for purpose</em>).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Garantia (Warranty)</strong></td>
+                        <td>Como o serviço funciona; sua adequação ao uso (<em>fit for use</em>).</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Exemplo prático: Sistema processual eletrônico</h5>
+            <ul>
+                <li><strong>Cliente:</strong> órgão do Tribunal responsável por contratar ou definir o serviço.</li>
+                <li><strong>Usuário:</strong> magistrado, servidor ou advogado que utiliza o sistema.</li>
+                <li><strong>Utilidade:</strong> permitir consultar, movimentar e processar ações judiciais.</li>
+                <li><strong>Garantia:</strong> assegurar disponibilidade, capacidade, segurança e continuidade adequadas.</li>
+            </ul>
+
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinha VUNESP:</strong><br>
+                • <strong>Utilidade</strong> = o que o serviço oferece (<em>fit for purpose</em>).<br>
+                • <strong>Garantia</strong> = como o serviço entrega o que promete (<em>fit for use</em>). Não confunda as duas definições.
+            </div>
+
+            <!-- 3. SISTEMA DE VALOR DE SERVIÇO (SVS) -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                3. Sistema de Valor de Serviço (SVS — Service Value System)
+            </h4>
+            <p>O SVS é um dos conceitos centrais da ITIL 4. Ele descreve como os diferentes componentes e atividades de uma organização trabalham juntos para facilitar a criação de valor por meio de serviços. Integra governança, princípios, cadeia de valor, práticas e melhoria contínua.</p>
+
+            <div style="background: #f1f5f9; padding: 12px; border-radius: 6px; border: 1px solid #cbd5e1; margin-bottom: 12px; font-size: 0.9rem;">
+                <p style="margin: 0 0 6px 0;"><strong>Entradas:</strong> OPORTUNIDADE / DEMANDA</p>
+                <p style="margin: 0 0 6px 0;"><strong>Componentes Integrados do SVS:</strong></p>
+                <ul style="margin: 0 0 8px 0;">
+                    <li>Princípios orientadores</li>
+                    <li>Governança</li>
+                    <li>Cadeia de valor de serviço</li>
+                    <li>Práticas</li>
+                    <li>Melhoria contínua</li>
+                </ul>
+                <p style="margin: 0;"><strong>Saída:</strong> VALOR (Resultados para clientes e partes interessadas)</p>
+            </div>
+
+            <p><strong>Os cinco componentes do SVS:</strong></p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Componente</th>
+                        <th>Função</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Princípios orientadores</strong></td>
+                        <td>Orientam decisões e comportamentos em todas as circunstâncias.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Governança</strong></td>
+                        <td>Direciona e controla a organização (Avaliar, Direcionar e Monitorar).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cadeia de valor de serviço</strong></td>
+                        <td>Define o conjunto de atividades para criar, entregar e suportar serviços.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Práticas</strong></td>
+                        <td>Conjuntos de recursos organizacionais para realizar trabalhos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Melhoria contínua</strong></td>
+                        <td>Promove aperfeiçoamento constante de produtos, serviços e práticas.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinha:</strong> O SVS <strong>não é apenas</strong> a cadeia de valor de serviço. A cadeia é somente um dos cinco componentes do SVS.
+            </div>
+
+            <!-- 4. OS SETE PRINCÍPIOS ORIENTADORES -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                4. Os Sete Princípios Orientadores da ITIL 4
+            </h4>
+            <p>Recomendações que orientam a organização em quaisquer circunstâncias, independentemente de mudanças em objetivos, estratégias ou líderes.</p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Nº</th>
+                        <th>Princípio</th>
+                        <th>Significado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>1</strong></td><td><strong>Foco no valor</strong> (<em>Focus on value</em>)</td><td>Tudo deve contribuir direta ou indiretamente para o valor percebido.</td></tr>
+                    <tr><td><strong>2</strong></td><td><strong>Comece de onde você está</strong> (<em>Start where you are</em>)</td><td>Avalie o que já existe antes de descartar ou começar do zero.</td></tr>
+                    <tr><td><strong>3</strong></td><td><strong>Progrida iterativamente com feedback</strong> (<em>Progress iteratively with feedback</em>)</td><td>Divida o trabalho em etapas menores e obtenha retornos frequentes.</td></tr>
+                    <tr><td><strong>4</strong></td><td><strong>Colabore e promova visibilidade</strong> (<em>Collaborate and promote visibility</em>)</td><td>Envolva as pessoas certas e torne o trabalho transparente.</td></tr>
+                    <tr><td><strong>5</strong></td><td><strong>Pense e trabalhe holisticamente</strong> (<em>Think and work holistically</em>)</td><td>Considere o serviço de ponta a ponta, integrando todas as partes.</td></tr>
+                    <tr><td><strong>6</strong></td><td><strong>Mantenha de forma simples e prática</strong> (<em>Keep it simple and practical</em>)</td><td>Elimine complexidades, etapas inúteis e atividades sem valor.</td></tr>
+                    <tr><td><strong>7</strong></td><td><strong>Otimize e automatize</strong> (<em>Optimize and automate</em>)</td><td>Simplifique e aperfeiçoe os processos antes de automatizá-los.</td></tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Exemplos no contexto do Tribunal:</h5>
+            <ul>
+                <li><strong>Foco no valor:</strong> priorizar melhorias que facilitem o trabalho dos usuários do sistema judicial.</li>
+                <li><strong>Comece de onde você está:</strong> avaliar a infraestrutura existente antes de comprar novos servidores.</li>
+                <li><strong>Progrida iterativamente:</strong> implantar melhorias em etapas, coletando feedback dos servidores.</li>
+                <li><strong>Colabore e promova visibilidade:</strong> envolver TI, magistrados, servidores e áreas administrativas.</li>
+                <li><strong>Pense holisticamente:</strong> considerar infraestrutura, sistemas, segurança, pessoas e processos.</li>
+                <li><strong>Mantenha simples e prático:</strong> eliminar etapas desnecessárias no atendimento de chamados.</li>
+                <li><strong>Otimize e automatize:</strong> revisar o fluxo de atendimento antes de automatizar sua execução.</li>
+            </ul>
+
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinhas VUNESP sobre Princípios:</strong><br>
+                1. Automatizar um processo ineficiente sem antes otimizá-lo contraria <em>Otimize e automatize</em>.<br>
+                2. Começar tudo do zero sem avaliar recursos existentes contraria <em>Comece de onde você está</em>.<br>
+                3. Executar projeto inteiro sem etapas e sem feedback contraria <em>Progrida iterativamente com feedback</em>.<br>
+                4. Avaliar apenas a infraestrutura isolada contraria <em>Pense e trabalhe holisticamente</em>.
+            </div>
+
+            <!-- 5. GOVERNANÇA NA ITIL 4 -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                5. Governança na ITIL 4
+            </h4>
+            <p>Componente do SVS responsável por direcionar e controlar a organização através de três atividades essenciais:</p>
+            <ol>
+                <li><strong>Avaliar (<em>Evaluate</em>):</strong> avaliar a organização, sua estratégia, propostas e necessidades das partes interessadas.</li>
+                <li><strong>Direcionar (<em>Direct</em>):</strong> estabelecer orientações, diretrizes e prioridades.</li>
+                <li><strong>Monitorar (<em>Monitor</em>):</strong> acompanhar o desempenho e verificar conformidade com as diretrizes.</li>
+            </ol>
+            <p><strong>Exemplo:</strong> Avaliar a necessidade de suporte aos processos judiciais ➔ Direcionar a prioridade para disponibilidade ➔ Monitorar indicadores de SLA.<br>
+            <em>Memorização:</em> <strong>Governança = Avaliar, Direcionar e Monitorar (EDM)</strong>.</p>
+
+            <!-- 6. CADEIA DE VALOR DE SERVIÇO -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                6. Cadeia de Valor de Serviço (Service Value Chain)
+            </h4>
+            <p>É o modelo operacional central do SVS. Contém seis atividades flexíveis que se combinam para formar <em>fluxos de valor</em> (value streams):</p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Atividade</th>
+                        <th>Finalidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Planejar (<em>Plan</em>)</strong></td><td>Garantir entendimento compartilhado da visão, situação atual e direção de melhoria.</td></tr>
+                    <tr><td><strong>Melhorar (<em>Improve</em>)</strong></td><td>Promover melhoria contínua de produtos, serviços e práticas em todas as atividades.</td></tr>
+                    <tr><td><strong>Engajar (<em>Engage</em>)</strong></td><td>Compreender necessidades, manter relacionamento e garantir transparência com partes interessadas.</td></tr>
+                    <tr><td><strong>Desenhar e transicionar (<em>Design & Transition</em>)</strong></td><td>Garantir que produtos e serviços atendam às expectativas de qualidade, custo e prazo.</td></tr>
+                    <tr><td><strong>Obter/construir (<em>Obtain/Build</em>)</strong></td><td>Garantir que componentes do serviço estejam disponíveis quando e onde forem necessários.</td></tr>
+                    <tr><td><strong>Entregar e suportar (<em>Deliver & Support</em>)</strong></td><td>Garantir a entrega e o suporte diário dos serviços conforme requisitos acordados.</td></tr>
+                </tbody>
+            </table>
+            <div class="alert-box" style="margin-top: 10px; margin-bottom: 12px;">
+                <strong>Atenção:</strong> As seis atividades <strong>não são obrigatoriamente sequenciais</strong>. A cadeia é flexível e as atividades podem ser acionadas e encadeadas em qualquer ordem conforme o fluxo de valor específico.
+            </div>
+
+            <!-- 7. AS QUATRO DIMENSÕES -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                7. As Quatro Dimensões do Gerenciamento de Serviços
+            </h4>
+            <p>Para assegurar uma abordagem holística, o gerenciamento de serviços exige atenção integrada a quatro dimensões:</p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Dimensão</th>
+                        <th>O que Considera</th>
+                        <th>Exemplo no Tribunal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Organizações e pessoas</strong></td>
+                        <td>Estrutura organizacional, cultura, papéis, responsabilidades e competências.</td>
+                        <td>Equipe de suporte capacitada e papéis bem definidos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Informação e tecnologia</strong></td>
+                        <td>Informações, conhecimentos, tecnologias, sistemas e proteção de ativos.</td>
+                        <td>Bancos de dados, sistemas processuais, redes e segurança da informação.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Parceiros e fornecedores</strong></td>
+                        <td>Contratos e relações com fornecedores externos de serviços e bens.</td>
+                        <td>Contratos de cloud, links de comunicação e consultorias terceirizadas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fluxos de valor e processos</strong></td>
+                        <td>Atividades, procedimentos e rotinas para transformar entradas em valor.</td>
+                        <td>Fluxo formal de atendimento a incidentes e gestão de mudanças.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinha VUNESP:</strong> Não confunda as <strong>quatro dimensões</strong> com os <strong>cinco componentes do SVS</strong>.<br>
+                • <em>SVS</em>: 5 componentes.<br>
+                • <em>Dimensões do gerenciamento de serviços</em>: 4 dimensões.
+            </div>
+
+            <!-- 8. PRÁTICAS DE GERENCIAMENTO -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                8. Práticas de Gerenciamento da ITIL 4
+            </h4>
+            <p>Na ITIL 4, o conceito de <strong>prática</strong> substitui a abordagem mais rígida de processos e funções da versão 3. Uma prática é um conjunto de recursos organizacionais voltados para a realização de um trabalho ou alcance de um objetivo. São <strong>34 práticas</strong> divididas em três grupos:</p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Grupo</th>
+                        <th>Quantidade</th>
+                        <th>Finalidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Práticas gerais de gerenciamento</strong></td><td>14</td><td>Aplicáveis à gestão organizacional ampla.</td></tr>
+                    <tr><td><strong>Práticas de gerenciamento de serviços</strong></td><td>17</td><td>Específicas para serviços desenvolvidos e entregues.</td></tr>
+                    <tr><td><strong>Práticas de gerenciamento técnico</strong></td><td>3</td><td>Voltadas à infraestrutura, software e implantação tecnológica.</td></tr>
+                    <tr style="font-weight: bold; background-color: #f1f5f9;"><td>Total</td><td>34</td><td></td></tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Práticas mais cobradas em prova:</h5>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Prática</th>
+                        <th>Finalidade Essencial</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Gerenciamento de incidentes</strong></td><td>Restaurar a operação normal do serviço o mais rápido possível.</td></tr>
+                    <tr><td><strong>Gerenciamento de problemas</strong></td><td>Reduzir probabilidade e impacto de incidentes, identificando causas reais/potenciais.</td></tr>
+                    <tr><td><strong>Habilitação de mudanças</strong></td><td>Maximizar mudanças bem-sucedidas através de avaliação de riscos e autorização formal.</td></tr>
+                    <tr><td><strong>Central de serviços (Service Desk)</strong></td><td>Ponto único de contato (SPOC) para captar demandas e incidentes dos usuários.</td></tr>
+                    <tr><td><strong>Gerenciamento de nível de serviço</strong></td><td>Definir metas claras de serviço baseadas em acordos (SLAs) e monitorar entrega.</td></tr>
+                    <tr><td><strong>Gerenciamento de configuração</strong></td><td>Garantir informações confiáveis sobre Itens de Configuração (CIs) e suas relações.</td></tr>
+                    <tr><td><strong>Gerenciamento de ativos de TI</strong></td><td>Planejar e gerenciar todo o ciclo de vida dos ativos de TI (financeiro e contratual).</td></tr>
+                    <tr><td><strong>Gerenciamento de disponibilidade</strong></td><td>Garantir que os serviços atendam aos níveis de disponibilidade acordados.</td></tr>
+                    <tr><td><strong>Gerenciamento de continuidade</strong></td><td>Assegurar a recuperação e continuidade dos serviços em situações de desastre.</td></tr>
+                    <tr><td><strong>Monitoramento e eventos</strong></td><td>Observar serviços/CIs e registrar/responder a mudanças relevantes de estado.</td></tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Distinção Fundamental: Incidente × Problema × Mudança</h5>
+            <p>Cenário: o sistema processual eletrônico ficou fora do ar.</p>
+            <ul>
+                <li><strong>Incidente:</strong> o sistema parou. A prioridade imediata é restaurar a operação para os usuários.</li>
+                <li><strong>Problema:</strong> investigar a causa raiz do colapso para prevenir novas ocorrências.</li>
+                <li><strong>Mudança:</strong> aplicar a correção definitiva de hardware ou software via controle formal de riscos.</li>
+            </ul>
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinha VUNESP:</strong> O gerenciamento de incidentes <strong>não</strong> tem como objetivo principal descobrir a causa raiz. Seu foco é <strong>restaurar o serviço o mais rápido possível</strong>. Investigação de causa raiz compete ao <strong>Gerenciamento de Problemas</strong>.
+            </div>
+
+            <!-- 9. MELHORIA CONTÍNUA -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                9. Melhoria Contínua
+            </h4>
+            <p>Componente do SVS e também prática de gerenciamento. Seu modelo estruturado orienta o aperfeiçoamento contínuo por meio de sete perguntas:</p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Etapa</th>
+                        <th>Pergunta Orientadora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>1</strong></td><td>Qual é a visão? (Alinhamento com a estratégia)</td></tr>
+                    <tr><td><strong>2</strong></td><td>Onde estamos agora? (Avaliação da situação atual)</td></tr>
+                    <tr><td><strong>3</strong></td><td>Onde queremos chegar? (Definição de metas mensuráveis)</td></tr>
+                    <tr><td><strong>4</strong></td><td>Como chegaremos lá? (Planejamento das ações de melhoria)</td></tr>
+                    <tr><td><strong>5</strong></td><td>Tome uma atitude (Execução do plano)</td></tr>
+                    <tr><td><strong>6</strong></td><td>Chegamos lá? (Medição dos resultados alcançados)</td></tr>
+                    <tr><td><strong>7</strong></td><td>Como manter o ritmo? (Sustentação e consolidação)</td></tr>
+                </tbody>
+            </table>
+
+            <!-- 10. RESUMO PARA MEMORIZAÇÃO -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                10. Resumo Geral — Números e Macetes para a VUNESP
+            </h4>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Elemento</th>
+                        <th>Quantidade / Regra</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>SVS</strong></td><td><strong>5 componentes</strong> (Princípios, Governança, Cadeia de Valor, Práticas e Melhoria Contínua)</td></tr>
+                    <tr><td><strong>Dimensões</strong></td><td><strong>4 dimensões</strong> (Pessoas, Tecnologia, Parceiros, Processos)</td></tr>
+                    <tr><td><strong>Princípios orientadores</strong></td><td><strong>7 princípios</strong></td></tr>
+                    <tr><td><strong>Cadeia de valor</strong></td><td><strong>6 atividades</strong> (não sequenciais)</td></tr>
+                    <tr><td><strong>Práticas</strong></td><td><strong>34 práticas</strong> (14 Gerais + 17 Serviços + 3 Técnicas)</td></tr>
+                    <tr><td><strong>Governança</strong></td><td><strong>3 atividades</strong> (Avaliar, Direcionar e Monitorar - EDM)</td></tr>
+                    <tr><td><strong>Melhoria contínua</strong></td><td><strong>7 perguntas/etapas</strong></td></tr>
+                    <tr><td><strong>Utilidade vs. Garantia</strong></td><td>Utilidade = o que faz (<em>fit for purpose</em>) | Garantia = como entrega (<em>fit for use</em>)</td></tr>
+                </tbody>
+            </table>
+
+            <!-- 11. PEGADINHAS CLÁSSICAS -->
+            <h4 style="margin-top: 25px; color: #b91c1c; border-bottom: 2px solid #f87171; padding-bottom: 6px;">
+                11. Pegadinhas Clássicas de Prova (VUNESP)
+            </h4>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Afirmação</th>
+                        <th>Gabarito</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>O SVS é composto exclusivamente pela cadeia de valor de serviço.</td><td><strong>Errado</strong> (a cadeia é apenas 1 dos 5 componentes)</td></tr>
+                    <tr><td>A ITIL 4 busca facilitar a cocriação de valor.</td><td><strong>Certo</strong></td></tr>
+                    <tr><td>Utilidade está relacionada à garantia de que o serviço estará disponível.</td><td><strong>Errado</strong> (disponibilidade é garantia / fit for use)</td></tr>
+                    <tr><td>Garantia está relacionada à adequação ao uso.</td><td><strong>Certo</strong></td></tr>
+                    <tr><td>A cadeia de valor possui seis atividades obrigatoriamente sequenciais.</td><td><strong>Errado</strong> (são flexíveis e dependem do fluxo de valor)</td></tr>
+                    <tr><td>A ITIL 4 possui quatro dimensões do gerenciamento de serviços.</td><td><strong>Certo</strong></td></tr>
+                    <tr><td>Automatizar deve ocorrer antes de otimizar.</td><td><strong>Errado</strong> (otimizar vem antes de automatizar)</td></tr>
+                    <tr><td>O gerenciamento de problemas busca identificar causas de incidentes.</td><td><strong>Certo</strong></td></tr>
+                    <tr><td>O gerenciamento de incidentes busca restaurar o serviço o mais rápido possível.</td><td><strong>Certo</strong></td></tr>
+                    <tr><td>A governança na ITIL envolve avaliar, direcionar e monitorar.</td><td><strong>Certo</strong></td></tr>
+                </tbody>
+            </table>
+        </div>
+    `,
 };
 
 document.addEventListener("DOMContentLoaded", () => {
