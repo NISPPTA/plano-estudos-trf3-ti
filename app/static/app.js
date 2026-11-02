@@ -2173,6 +2173,295 @@ const resumosTopicos = {
             </table>
         </div>
     `,
+    // -----------------------------------------------------
+    // TÓPICO 7: Gestão de Riscos: ISO 31000, ISO/IEC 27005 e NIST SP 800-30
+    // -----------------------------------------------------
+    7: `
+        <summary>📘 Ver Conteúdo Completo (Gestão de Riscos: ISO 31000, ISO/IEC 27005 e NIST SP 800-30)</summary>
+        <div class="topic-details-content">
+            <p>Esse conteúdo é importante para o concurso TRF3 – Analista Judiciário – TI, especialmente porque a banca VUNESP pode cobrar a finalidade de cada norma, suas etapas, conceitos e diferenças.</p>
+
+            <div class="alert-box" style="margin-bottom: 15px;">
+                <strong>Ideia central:</strong><br>
+                Identificar o que pode dar errado, avaliar as consequências e decidir o que fazer antes que o problema aconteça.
+            </div>
+
+            <!-- 1. O QUE É GESTÃO DE RISCOS -->
+            <h4 style="margin-top: 20px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                1. Primeiro: O que é Gestão de Riscos?
+            </h4>
+            <p>Imagine que o Tribunal Regional Federal da 3ª Região (TRF3) possui um sistema que armazena processos judiciais. Existem ameaças que podem comprometer esse sistema:</p>
+            <ul>
+                <li>Um hacker pode invadir o ambiente;</li>
+                <li>Um funcionário pode apagar dados acidentalmente;</li>
+                <li>Um servidor pode apresentar defeito;</li>
+                <li>Um ransomware pode criptografar os arquivos;</li>
+                <li>Uma falha de configuração pode expor informações sigilosas.</li>
+            </ul>
+            <p><strong>Gestão de riscos</strong> é o conjunto de atividades utilizadas para identificar, analisar, avaliar e tratar situações que podem prejudicar os objetivos de uma organização.</p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Conceitos fundamentais:</h5>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Conceito</th>
+                        <th>Significado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Ativo</strong></td><td>Algo que possui valor para a organização. Ex.: banco de dados.</td></tr>
+                    <tr><td><strong>Ameaça</strong></td><td>Algo que pode provocar um incidente. Ex.: hacker.</td></tr>
+                    <tr><td><strong>Vulnerabilidade</strong></td><td>Fraqueza que pode ser explorada. Ex.: sistema desatualizado.</td></tr>
+                    <tr><td><strong>Risco</strong></td><td>Efeito da incerteza sobre os objetivos.</td></tr>
+                    <tr><td><strong>Probabilidade</strong></td><td>Chance de determinado evento acontecer.</td></tr>
+                    <tr><td><strong>Impacto</strong></td><td>Consequência caso o evento aconteça.</td></tr>
+                    <tr><td><strong>Controle</strong></td><td>Medida utilizada para modificar o risco.</td></tr>
+                    <tr><td><strong>Risco residual</strong></td><td>Risco que permanece após a aplicação dos controles.</td></tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Exemplo prático no TRF3:</h5>
+            <p>Um servidor do TRF3 utiliza um sistema operacional desatualizado:</p>
+            <ul>
+                <li><strong>Ativo:</strong> servidor.</li>
+                <li><strong>Ameaça:</strong> exploração por invasor.</li>
+                <li><strong>Vulnerabilidade:</strong> sistema desatualizado.</li>
+                <li><strong>Impacto:</strong> indisponibilidade ou vazamento de informações.</li>
+                <li><strong>Controle:</strong> atualização, firewall e monitoramento.</li>
+                <li><strong>Risco residual:</strong> possibilidade de exploração mesmo após os controles.</li>
+            </ul>
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Guarde esta distinção:</strong> Ameaça é o que pode causar o problema; vulnerabilidade é a fraqueza que pode ser explorada.
+            </div>
+
+            <!-- 2. ISO 31000 -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                2. ISO 31000 – Gestão de Riscos Organizacionais
+            </h4>
+            <p>Norma internacional que apresenta princípios, estrutura e processo para gerenciar riscos em qualquer tipo de organização. A ISO 31000 <strong>não é exclusiva da Tecnologia da Informação</strong>; pode ser utilizada para gerenciar riscos financeiros, operacionais, estratégicos, administrativos, tecnológicos e institucionais.</p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">2.1 Os Princípios:</h5>
+            <p>A gestão de riscos deve ser:</p>
+            <ul>
+                <li><strong>Integrada:</strong> incorporada a todas as atividades organizacionais;</li>
+                <li><strong>Estruturada e abrangente:</strong> organizada e consistente;</li>
+                <li><strong>Personalizada:</strong> adaptada ao contexto e aos objetivos;</li>
+                <li><strong>Inclusiva:</strong> envolvendo oportunamente as partes interessadas;</li>
+                <li><strong>Dinâmica:</strong> capaz de acompanhar e responder a mudanças;</li>
+                <li><strong>Baseada na melhor informação disponível:</strong> considerando dados históricos e previsões futuras;</li>
+                <li><strong>Fatores humanos e culturais:</strong> considerando o comportamento e as capacidades das pessoas;</li>
+                <li><strong>Melhoria contínua:</strong> aprimorada continuamente pelo aprendizado e pela experiência.</li>
+            </ul>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">2.2 Estrutura (Framework):</h5>
+            <p>A estrutura da ISO 31000 envolve:</p>
+            <ol>
+                <li>Liderança e comprometimento;</li>
+                <li>Integração;</li>
+                <li>Concepção;</li>
+                <li>Implementação;</li>
+                <li>Avaliação;</li>
+                <li>Melhoria.</li>
+            </ol>
+            <p><em>A alta administração tem papel fundamental: precisa demonstrar comprometimento e integrar a gestão de riscos à governança da organização.</em></p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">2.3 Processo de Gestão de Riscos:</h5>
+            <div style="background: #f1f5f9; padding: 12px; border-radius: 6px; border: 1px solid #cbd5e1; margin-bottom: 12px; font-size: 0.9rem;">
+                <p style="margin: 0 0 6px 0;"><strong>Fluxo do Processo da ISO 31000:</strong></p>
+                <ol style="margin: 0 0 8px 0; padding-left: 20px;">
+                    <li><strong>Comunicação e consulta</strong> (acompanha todo o processo)</li>
+                    <li><strong>Escopo, contexto e critérios</strong></li>
+                    <li><strong>Avaliação de riscos (Risk Assessment):</strong> Identificação → Análise → Avaliação</li>
+                    <li><strong>Tratamento de riscos</strong></li>
+                    <li><strong>Monitoramento e análise crítica</strong> (acompanha todo o processo)</li>
+                    <li><strong>Registro e relato</strong></li>
+                </ol>
+                <p style="margin: 0; font-size: 0.85rem; color: #475569;"><em>Atenção: comunicação, consulta, monitoramento e análise crítica não ocorrem apenas uma vez; acompanham continuamente o ciclo.</em></p>
+            </div>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">2.4 Tratamento de Riscos:</h5>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Estratégia</th>
+                        <th>O que Significa</th>
+                        <th>Exemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Evitar</strong></td><td>Não realizar a atividade que gera o risco.</td><td>Descontinuar um sistema inseguro.</td></tr>
+                    <tr><td><strong>Reduzir / Modificar</strong></td><td>Diminuir a probabilidade ou o impacto.</td><td>Implementar autenticação multifator (MFA).</td></tr>
+                    <tr><td><strong>Compartilhar</strong></td><td>Dividir o risco com terceiros.</td><td>Contratar seguro cibernético ou terceirizar.</td></tr>
+                    <tr><td><strong>Reter / Aceitar</strong></td><td>Conviver com o risco.</td><td>Aceitar risco residual dentro dos critérios formais.</td></tr>
+                </tbody>
+            </table>
+            <div class="alert-box" style="margin-top: 10px; margin-bottom: 12px;">
+                <strong>Pegadinha VUNESP:</strong> Aceitar um risco <strong>não significa ignorá-lo</strong>. A decisão deve ser formal, fundamentada em critérios e autorizada pela autoridade responsável.
+            </div>
+
+            <!-- 3. ISO/IEC 27005 -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                3. ISO/IEC 27005 – Gestão de Riscos de Segurança da Informação
+            </h4>
+            <p>Norma específica para orientar o gerenciamento de riscos relacionados à segurança da informação. Enquanto a ISO 31000 trata de riscos organizacionais em geral, a ISO/IEC 27005 direciona sua aplicação diretamente à segurança da informação e apoia a implementação do <strong>SGSI</strong> (Sistema de Gestão de Segurança da Informação), fundamentado na <strong>ISO/IEC 27001</strong>.</p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">3.1 O que é SGSI?</h5>
+            <p>O SGSI é um conjunto de políticas, processos, procedimentos e controles utilizados para proteger os ativos de informação de uma organização, preservando as três propriedades essenciais:</p>
+            <ul>
+                <li><strong>Confidencialidade:</strong> somente pessoas autorizadas podem acessar a informação.</li>
+                <li><strong>Integridade:</strong> a informação deve permanecer correta, exata e não ser alterada indevidamente.</li>
+                <li><strong>Disponibilidade:</strong> a informação deve estar acessível e utilizável quando necessária pelos usuários autorizados.</li>
+            </ul>
+            <p><em>Memorize: Tríade CID — Confidencialidade, Integridade e Disponibilidade.</em></p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">3.2 Ciclo de Gestão de Riscos na ISO/IEC 27005:</h5>
+            <ol>
+                <li>Estabelecimento do contexto;</li>
+                <li>Avaliação dos riscos (Identificação, Análise e Avaliação);</li>
+                <li>Tratamento dos riscos;</li>
+                <li>Aceitação dos riscos;</li>
+                <li>Comunicação e consulta;</li>
+                <li>Monitoramento e análise crítica.</li>
+            </ol>
+
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Atividade da Avaliação</th>
+                        <th>Pergunta que Responde</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Identificação</strong></td><td>Quais riscos existem?</td></tr>
+                    <tr><td><strong>Análise</strong></td><td>Qual a probabilidade e o impacto?</td></tr>
+                    <tr><td><strong>Avaliação</strong></td><td>O risco é aceitável ou precisa de tratamento?</td></tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">3.3 Exemplo prático no TRF3:</h5>
+            <p>Cenário: o sistema processual armazena documentos judiciais sigilosos e determinados servidores possuem permissões em excesso.</p>
+            <ul>
+                <li><strong>Identificação:</strong> possibilidade de acesso indevido a documentos sigilosos.</li>
+                <li><strong>Análise:</strong> probabilidade moderada de visualização sem necessidade funcional com alto impacto de vazamento.</li>
+                <li><strong>Avaliação:</strong> risco considerado elevado, ultrapassando o limiar de tolerância aceito pelo Tribunal.</li>
+                <li><strong>Tratamento:</strong> aplicar controle de acesso baseado em papéis (RBAC), MFA e trilhas de auditoria.</li>
+                <li><strong>Monitoramento:</strong> acompanhar logs de auditoria e revisar semestralmente as permissões de acesso.</li>
+            </ul>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">3.4 ISO 27001 versus ISO 27005:</h5>
+            <ul>
+                <li><strong>ISO/IEC 27001:</strong> estabelece <em>requisitos auditáveis e certificáveis</em> para um SGSI.</li>
+                <li><strong>ISO/IEC 27005:</strong> fornece <em>diretrizes e orientações</em> para conduzir a gestão de riscos de segurança da informação, apoiando a aplicação da 27001.</li>
+            </ul>
+            <div class="alert-box" style="margin-bottom: 12px;">
+                <strong>Pegadinha de prova:</strong> A ISO/IEC 27005 <strong>não substitui</strong> a ISO/IEC 27001. Elas possuem finalidades distintas e complementares.
+            </div>
+
+            <!-- 4. NIST SP 800-30 -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                4. NIST SP 800-30 Rev. 1 – Avaliação de Riscos
+            </h4>
+            <p>Guia do <em>National Institute of Standards and Technology</em> (NIST) voltado a conduzir avaliações de riscos em sistemas de informação e organizações federais e corporativas. A publicação de referência atual para concursos é a <strong>SP 800-30 Revisão 1</strong> (publicada em setembro de 2012, substituindo a versão inicial de 2002).</p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">4.1 As quatro etapas da avaliação de riscos no NIST:</h5>
+            <ol>
+                <li><strong>Preparar a avaliação:</strong> definir escopo, contexto, fontes de informação, premissas e abordagem.</li>
+                <li><strong>Conduzir a avaliação:</strong> identificar ameaças, vulnerabilidades, probabilidade, impacto e determinar o risco.</li>
+                <li><strong>Comunicar os resultados:</strong> compartilhar relatórios com as lideranças tomadoras de decisão.</li>
+                <li><strong>Manter a avaliação:</strong> monitorar e atualizar a avaliação continuamente frente a mudanças em ameaças e sistemas.</li>
+            </ol>
+            <p><em>Essa sequência em quatro etapas é cobrança direta em provas da VUNESP.</em></p>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">4.2 Como o NIST avalia um risco?</h5>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Elemento</th>
+                        <th>Exemplo Aplicado no TRF3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Fonte de ameaça</strong> (<em>threat source</em>)</td><td>Invasor / cibercriminoso.</td></tr>
+                    <tr><td><strong>Evento de ameaça</strong> (<em>threat event</em>)</td><td>Exploração de falha em aplicação web exposta na internet.</td></tr>
+                    <tr><td><strong>Vulnerabilidade</strong></td><td>Sistema sem patches ou correções recentes de segurança.</td></tr>
+                    <tr><td><strong>Probabilidade</strong></td><td>Chance real de exploração da vulnerabilidade.</td></tr>
+                    <tr><td><strong>Impacto</strong></td><td>Vazamento de documentos judiciais sob sigilo e danos reputacionais.</td></tr>
+                    <tr><td><strong>Risco</strong></td><td>Potencial de perda ou prejuízo aos objetivos institucionais do tribunal.</td></tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">4.3 Probabilidade e Impacto:</h5>
+            <p>Uma forma comum e simplificada de representar o risco é a relação:</p>
+            <div style="background: #f1f5f9; padding: 8px 15px; border-radius: 6px; font-weight: bold; border-left: 4px solid var(--primary); margin-bottom: 10px;">
+                Risco = Probabilidade × Impacto
+            </div>
+            
+            <p><strong>Matriz Ilustrativa Impacto × Probabilidade:</strong></p>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Probabilidade ↓ \ Impacto →</th>
+                        <th>Baixo</th>
+                        <th>Médio</th>
+                        <th>Alto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Alta</strong></td><td>Médio</td><td>Alto</td><td style="color: #b91c1c; font-weight: bold;">Crítico</td></tr>
+                    <tr><td><strong>Média</strong></td><td>Baixo</td><td>Médio</td><td>Alto</td></tr>
+                    <tr><td><strong>Baixa</strong></td><td>Baixo</td><td>Baixo</td><td>Médio</td></tr>
+                </tbody>
+            </table>
+            <div class="alert-box" style="margin-top: 10px; margin-bottom: 12px;">
+                <strong>Atenção para a prova:</strong> <strong>Não existe fórmula matemática universal obrigatória</strong> em todas as avaliações de risco do NIST ou da ISO 31000. Cada instituição define suas matrizes, escalas e critérios operacionais.
+            </div>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">4.4 Os três níveis de avaliação do NIST (Hierarchy of Risk Assessment):</h5>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Nível</th>
+                        <th>Abrangência</th>
+                        <th>Exemplo no Tribunal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Tier 1</strong></td><td>Organização</td><td>Estratégia institucional e governança macro do TRF3.</td></tr>
+                    <tr><td><strong>Tier 2</strong></td><td>Processos de negócio e missão</td><td>Gestão de tramitação de processos judiciais e fluxos de trabalho.</td></tr>
+                    <tr><td><strong>Tier 3</strong></td><td>Sistemas de informação</td><td>Servidores, bancos de dados, aplicações, redes e endpoints.</td></tr>
+                </tbody>
+            </table>
+
+            <!-- 5. COMPARAÇÃO GERAL -->
+            <h4 style="margin-top: 25px; color: var(--primary); border-bottom: 2px solid #cbd5e1; padding-bottom: 6px;">
+                5. Comparação Geral: ISO 31000 × ISO 27005 × NIST SP 800-30
+            </h4>
+            <table>
+                <thead>
+                    <tr style="background-color: #e2e8f0;">
+                        <th>Característica</th>
+                        <th>ISO 31000</th>
+                        <th>ISO/IEC 27005</th>
+                        <th>NIST SP 800-30</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Foco principal</strong></td><td>Riscos organizacionais em geral</td><td>Riscos de segurança da informação</td><td>Avaliação de riscos (Risk Assessment)</td></tr>
+                    <tr><td><strong>Abrangência</strong></td><td>Corporativa e multidisciplinar</td><td>Segurança da informação e ativos</td><td>TI, sistemas e organização</td></tr>
+                    <tr><td><strong>Natureza</strong></td><td>Princípios, diretrizes e framework</td><td>Guia de implementação e boas práticas</td><td>Guia técnico e metodológico</td></tr>
+                    <tr><td><strong>Objetivo central</strong></td><td>Gerenciar riscos globalmente</td><td>Gerenciar riscos de segurança da informação</td><td>Conduzir avaliações de riscos em 4 etapas</td></tr>
+                    <tr><td><strong>Relação normativa</strong></td><td>Referência geral internacional</td><td>Apoia e complementa a ISO 27001</td><td>Integra a série técnica especial do NIST</td></tr>
+                </tbody>
+            </table>
+
+            <h5 style="margin: 15px 0 8px 0; color: var(--sidebar-bg);">Mnemônico para memorização:</h5>
+            <ul>
+                <li><strong>ISO 31000:</strong> <em>Risco de tudo!</em> (Gestão de riscos integrada para toda a organização).</li>
+                <li><strong>ISO/IEC 27005:</strong> <em>Risco da informação!</em> (Gestão específica de riscos de segurança da informação apoiando a ISO 27001).</li>
+                <li><strong>NIST SP 800-30:</strong> <em>Avaliação do risco!</em> (Guia técnico focado em preparar, conduzir, comunicar e manter avaliações de riscos).</li>
+            </ul>
+        </div>
+    `,
 };
 
 document.addEventListener("DOMContentLoaded", () => {
